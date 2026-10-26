@@ -1,0 +1,8 @@
+{
+  "name": "DENT ZYM APP",
+  "description": "Train Hard. Stay Strong. Transform Yourself. Premium Gym, Fitness & AI Personal Trainer application with interactive workouts and intelligent AI coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

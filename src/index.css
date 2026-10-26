@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-graphite: #101116;
+    --bg-charcoal: #191B23;
+    --bg-surface: #20232E;
+    --bg-surface-hover: #282C3A;
+    --border-subtle: #2A2E3D;
+    --accent-lime: #C6FF4D;
+    --accent-lime-dim: rgba(198, 255, 77, 0.15);
+    --accent-violet: #9B7BFF;
+    --accent-violet-dim: rgba(155, 123, 255, 0.15);
+    --text-primary: #F5F6FA;
+    --text-muted: #A4A7B2;
+    --text-dim: #6B7082;
+    --color-error: #FF4D4D;
+  }
+
+  body {
+    background-color: var(--bg-graphite);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101116;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2E3D;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3D4358;
+}
+
+/* Tabular figures for numbers and timers */
+.font-tabular {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Glowing accent effects */
+.glow-lime {
+  box-shadow: 0 0 25px rgba(198, 255, 77, 0.22);
+}
+
+.glow-violet {
+  box-shadow: 0 0 25px rgba(155, 123, 255, 0.25);
+}
+
+.glow-lime-sm {
+  box-shadow: 0 0 12px rgba(198, 255, 77, 0.18);
+}
